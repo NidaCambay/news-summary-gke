@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/hakanbayraktar/news-summary-gke-test'
+    repoURL: 'https://github.com/NidaCambay/news-summary-gke.git'
     targetRevision: HEAD
     path: manifests
   destination:
