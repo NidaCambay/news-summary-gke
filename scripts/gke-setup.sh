@@ -12,9 +12,9 @@ fi
 gcloud auth activate-service-account --key-file=gcp-key.json
 
 # 📌 Set the target GCP project
-PROJECT_ID="Your-Project_ID"
+PROJECT_ID="news-summary-project-463721"
 REGION="us-central1"
-CLUSTER_NAME="devops-cluster-test"
+CLUSTER_NAME="devops-cluster"
 
 gcloud config set project "$PROJECT_ID"
 
