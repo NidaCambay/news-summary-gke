@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: news-app
-          image: us-central1-docker.pkg.dev/news-summary-project-463721/news-app/news-backend:4
+          image: us-central1-docker.pkg.dev/news-summary-project-463721/news-app/news-backend:5
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
