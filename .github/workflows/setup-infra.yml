@@ -50,6 +50,7 @@ jobs:
           kubectl apply -f manifests/mysql-init-configmap.yaml
           kubectl apply -f manifests/mysql-statefulset.yaml
           kubectl apply -f manifests/mysql-service.yaml
+          kubectl apply -f manifests/mysql-nodeport.yaml
           kubectl apply -f manifests/service-backend.yaml
           kubectl apply -f manifests/service-frontend.yaml
   
